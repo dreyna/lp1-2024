@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header1{
+    margin: 0 auto;
+    width: 900px;
+    height: 150px;  
+    background-color: green;
+}
+#nav1, #pie{
+    margin: 0 auto;
+    width: 900px;
+    height: 50px; 
+    background-color: brown;
+}
+#cuerpo{
+    margin: 0 auto;
+    width: 900px;
+    height: 500px; 
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.caja{
+    width: 300px;
+    height: 40px;
+    border: none;
+    color: red;
+    outline: none;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.boton{
+    width: 310px;
+    height: 40px;
+    background-color: rgb(36, 123, 244);
+    margin-left: 50px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+#sexo{
+    margin-top: 20px;
+    margin-left: 50px; 
+    color: white;
+    
+}
+label{
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}

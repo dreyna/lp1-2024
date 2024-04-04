@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(220, 218, 218);
+    align-items: center;
+    justify-content: center;
+    margin-left: -200px;
+    margin-top: -200px;
+    border-radius: 20px;
+
+}
+.caja{
+    width: 300px;
+    height: 40px;
+    border: none;
+    color: red;
+    outline: none;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(229, 229, 232);
+}
+.boton{
+    width: 310px;
+    height: 40px;
+    background-color: rgb(36, 123, 244);
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
